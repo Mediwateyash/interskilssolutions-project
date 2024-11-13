@@ -1,0 +1,64 @@
+footer {
+    background-color: #2b3a4a;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .about-classes img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .about-classes p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .course-section h3, .address-section h3, .social-media h3 {
+    margin-bottom: 10px;
+    color: #ffdd57;
+  }
+  
+  .course-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .course-section ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .address-section p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .social-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ffdd57;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    background-color: #1f2a38;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #444;
+  }

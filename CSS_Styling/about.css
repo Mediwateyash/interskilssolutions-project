@@ -1,0 +1,182 @@
+/* about us  */
+
+.about-us {
+    background-color: #f2f5f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    color: #e63946;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-us .tagline {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.about-us .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-us .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1300px;
+}
+
+.about-us .text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.about-us .text h3 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.about-us .text p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about-us .read-more {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.about-us .image {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-us .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Branches Section */
+.branches-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f4ff;
+}
+
+.branches-section h2 {
+    font-size: 24px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.branches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    color: #0056b3;
+    margin-top: 10px;
+}
+
+.branches span {
+    display: flex;
+    align-items: center;
+}
+
+.branches i {
+    color: #0056b3;
+    margin-right: 5px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.why-choose-us h2 {
+    font-size: 26px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature-box {
+    width: 220px;
+    background-color: #0056b3;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(234, 192, 192, 0.1);
+}
+
+.feature-box i {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.feature-box h3 {
+    font-size: 18px;
+    color: #ffcc00;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.stats {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.stats .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.stat h3 {
+    color: #e63946;
+    font-size: 2em;
+    margin: 0;
+}
+
+.content p {
+    font-size: 1em;
+    color: #1d1c1e;
+    text-align: justify;
+    margin: 0;
+    
+
+}
