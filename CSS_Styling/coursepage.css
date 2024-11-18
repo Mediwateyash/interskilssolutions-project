@@ -1,0 +1,182 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #0056b3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Course Overview */
+.course-info {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.course-info h2 {
+    margin-bottom: 20px;
+}
+
+/* Syllabus Accordion */
+.accordion {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.accordion h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.accordion-item button {
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accordion-item button:hover {
+    background-color: #ddd;
+}
+
+.accordion-item-content {
+    padding: 15px;
+    display: none;
+    background-color: #fff;
+}
+
+/* Key Features */
+.key-features {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.key-features h2 {
+    margin-bottom: 20px;
+}
+
+.key-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.key-features ul li {
+    margin: 10px 0;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item button {
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.faq-item button:hover {
+    background-color: #ddd;
+}
+
+.faq-content {
+    padding: 15px;
+    display: none;
+    background-color: #fff;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

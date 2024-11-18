@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    height: 100vh;
+    margin: 0;
+    display: centre;
+}.fathercontainer {
+    display: flex; /* Makes it a flex container */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Takes the full height of the viewport */
+    background-color: #f2f2f2; /* Ensures consistent background with body */
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+
+.contact-info, .form-container {
+    width: 50%;
+    padding: 20px;
+}
+
+.contact-info h2, .form-container h2 {
+    color: #333;
+}
+
+.contact-info p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-container form input, .form-container form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.form-container form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.form-container form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.map {
+    flex: 1;
+    min-height: 300px;
+}

@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Example</title>
+    <title>Interskill Solutions</title>
    <link rel="stylesheet" href="/interskilssolutions-project/style.css">
    <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/header.css">
    <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/about.css">
    <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/courses.css">
    <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/placement_review.css">
    <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/footer.css">
+   <link rel="icon" href="/interskilssolutions-project/assets/img/icon.png" type="image/icon type">
+   <!-- FontAwesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 
 <!-- Top Banner -->
 <div class="top-banner">
-    <p> Your Path to a Successful IT Career Begins Here and Corporate For more inform please contact us – <a href="tel:+919613941713">8799903365</a></p>
+    <span>Your Path to a Successful IT Career Begins Here and Corporate For more inform please contact us</span>
+    <a href="tel:+919619341713">Book a call now </a>
+  </div>
 </div>
-
+<div class="pannelfather">
+    <div class="pannel">
+        <p>Welcome to Interskill solution we provide you expert teaching and guidance  to help you achieve your goals            ||   100% placement  assistance          || Affordable fees </p>
+        
+    </div>
+</div>
 <!-- Main Navigation Bar -->
 <header class="main-header">
     <div class="logo">
@@ -26,11 +37,11 @@
     <nav>
         <ul class="nav-links">
             <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="/interskilssolutions-project/aboutus.html">ABOUT US</a></li>
             <li class="dropdown">
                 <a href="#courses">OUR COURSES</a>
                 <ul class="dropdown-content">
-                    <li><a href="#course1">It Courses</a></li>
+                    <li><a href="/interskilssolutions-project/course.html">It Courses</a></li>
                     <li><a href="#course2">Civil courses</a></li>
                     <li><a href="#course3">Mechanical courses</a></li>
                     <li><a href="#course4">Digital Marketing</a></li>
@@ -38,29 +49,49 @@
             </li>
             <li><a href="#testimonials">CORPORATE TRAINING</a></li>
             <li><a href="#placement">PLACEMENT</a></li>
-            <li><a href="#contact">CONTACT US</a></li>
+            <li><a href="/interskilssolutions-project/contactus.html">CONTACT US</a></li>
         </ul>
         
     </nav>
    
 </header>
-<div class="pannelfather">
-    <div class="pannel">
-        <p>Welcome to Interskill solution we provide you expert teaching and guidance  to help you achieve your goals            ||   100% placement  assistance          || Affordable fees </p>
-        
+
+<!-- Hero section with slider  -->
+<!-- Hero Section -->
+<!-- Hero Section -->
+<section class="hero-slider-section">
+    <div class="hero-slides">
+      <div class="hero-slide">
+        <a class="hero-explore-btn" href="#">Explore</a>
+        <img src="/interskilssolutions-project/assets/img/heroimg/test.png" alt="Slide 1">
+        <div class="hero-caption"></div>
+      </div>
+      <div class="hero-slide">
+        <a class="hero-explore-btn" href="#">Explore</a>
+        <img src="/interskilssolutions-project/assets/img/heroimg/test1.png" alt="Slide 2">
+        <div class="hero-caption"></div>
+      </div>
+      <div class="hero-slide">
+        <a class="hero-explore-btn" href="#">Explore</a>
+        <img src="/interskilssolutions-project/assets/img//heroimg/2.png" alt="Slide 3">
+        <div class="hero-caption"></div>
+      </div>
+      <div class="hero-slide">
+        <a class="hero-explore-btn" href="#">Explore</a>
+        <img src="/interskilssolutions-project/assets/img/heroimg/1.png" alt="Slide 4">
+      </div>
     </div>
-</div>
-
-
-<div class="hero-section">
-    <div class="slider">
-        <div class="slide slide1"></div>
-        <div class="slide slide2"></div>
-        <div class="slide slide3"></div>
+    <!-- Navigation Buttons -->
+    <button class="hero-prev" onclick="changeHeroSlide(-1)">&#10094;</button>
+    <button class="hero-next" onclick="changeHeroSlide(1)">&#10095;</button>
+    <!-- Dots -->
+    <div class="hero-dots">
+      <span class="hero-dot" onclick="setHeroSlide(1)"></span>
+      <span class="hero-dot" onclick="setHeroSlide(2)"></span>
+      <span class="hero-dot" onclick="setHeroSlide(3)"></span>
+      <span class="hero-dot" onclick="setHeroSlide(4)"></span>
     </div>
-</div>
-
-
+  </section>
 
 <!-- about us section -->
 <section class="about-us">
@@ -126,164 +157,579 @@
         </div>
     </div>
 </section>
-<!-- FontAwesome for Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 <section class="stats">
     <div class="container">
         <div class="stat">
-            <h3>7,000+</h3>
+            <h3 data-count="7000" data-type="plus">0</h3>
             <p>Students Trained</p>
         </div>
         <div class="stat">
-            <h3>500+</h3>
+            <h3 data-count="500" data-type="plus">0</h3>
             <p>Alumni Network</p>
         </div>
         <div class="stat">
-            <h3>100%</h3>
+            <h3 data-count="100" data-type="percent">0</h3>
             <p>Placement Assurance</p>
         </div>
         <div class="stat">
-            <h3>2000+</h3>
-            <p>student placed</p>
+            <h3 data-count="2000" data-type="plus">0</h3>
+            <p>Students Placed</p>
         </div>
     </div>
 </section>
 
 
 
-<!-- course cards -->
-<header class="cardheader">
-    <h1>Explore Our World-Class Coding Courses</h1>
-    <div class="button-group">
-        <button class="button guarantee">Job Guarantee</button>
-        <button class="button assurance">Job Assurance</button>
-    </div>
-</header>
+   <!-- Course Buttons -->
+      <!-- Course Buttons -->
+      <header class="cardheader">
+        <h1>Explore Our World-Class Coding Courses</h1>
+        <div class="button-group">
+            <button class="button" id="btn-it" data-category="it">IT Courses</button>
+            <button class="button" id="btn-mech" data-category="mechanical-engineering">Mechanical Engineering</button>
+            <button class="button" id="btn-civil" data-category="civil-engineering">Civil Engineering</button>
+            <button class="button" id="btn-digital" data-category="digital-marketing">Digital Marketing</button>
+        </div>
+    </header>
 
-<!-- cources section -->
-<div class="container">
-<!-- Card 1 -->
-<div class="card">
-    <img src="/interskilssolutions-project/assets/img/web dev.jpg" alt="Python Course">
+    <!-- Courses Section -->
+    <div class="container">
+        <div class="card" data-category="it">
+            <img src="/interskilssolutions-project/assets/course/data science.png" alt="Data Science">
+            <div class="card-content">
+                <p>#PopularChoice -</p>
+                <h3>Data Science</h3>
+                <div class="details">
+                    <span><i class="icon">&#128197;</i> Duration: 5 Months</span>
+                    <span><i class="icon">&#128221;</i> Live Projects: 18</span>
+                </div>
+                <p>📚 600+ Active Learners</p>
+                <a href="/interskilssolutions-project/course.html" class="learn-more">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card" data-category="it">
+            <img src="/interskilssolutions-project/assets/course/data analyatics.png" alt="Data Analytics">
+            <div class="card-content">
+                <p>#TopPick -</p>
+                <h3>Data Analytics</h3>
+                <div class="details">
+                    <span><i class="icon">&#128197;</i> Duration: 4 Months</span>
+                    <span><i class="icon">&#128221;</i> Live Projects: 12</span>
+                </div>
+                <p>📚 350+ Active Learners</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card" data-category="it">
+            <img src="/interskilssolutions-project/assets/course/fullstack.png" alt="Full Stack Development">
+            <div class="card-content">
+                <p>#Trending -</p>
+                <h3>Full Stack Development</h3>
+                <div class="details">
+                    <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
+                    <span><i class="icon">&#128221;</i> Live Projects: 20</span>
+                </div>
+                <p>📚 500+ Active Learners</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card" data-category="it">
+            <img src="/interskilssolutions-project/assets/course/cloud computing.png" alt="MERN Stack Development">
+            <div class="card-content">
+                <p>#HighlyRated -</p>
+                <h3>MERN Stack Development</h3>
+                <div class="details">
+                    <span><i class="icon">&#128197;</i> Duration: 5 Months</span>
+                    <span><i class="icon">&#128221;</i> Live Projects: 16</span>
+                </div>
+                <p>📚 400+ Active Learners</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card" data-category="it">
+            <img src="/interskilssolutions-project/assets/course/leftcourse.png" alt="Ethical Hacking">
+            <div class="card-content">
+                <p>#TechSavvy -</p>
+                <h3>Ethical Hacking</h3>
+                <div class="details">
+                    <span><i class="icon">&#128197;</i> Duration: 3 Months</span>
+                    <span><i class="icon">&#128221;</i> Live Projects: 10</span>
+                </div>
+                <p>📚 300+ Active Learners</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card" data-category="it">
+            <img src="/interskilssolutions-project/assets/course/leftcourse.png" alt="Cloud Computing / Linux">
+            <div class="card-content">
+                <p>#FutureReady -</p>
+                <h3>Cloud Computing / Linux</h3>
+                <div class="details">
+                    <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
+                    <span><i class="icon">&#128221;</i> Live Projects: 12</span>
+                </div>
+                <p>📚 500+ Active Learners</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card" data-category="it">
+            <img src="/interskilssolutions-project/assets/course/leftcourse.png" alt="Python Development">
+            <div class="card-content">
+                <p>#BestSeller -</p>
+                <h3>Python Development</h3>
+                <div class="details">
+                    <span><i class="icon">&#128197;</i> Duration: 3 Months</span>
+                    <span><i class="icon">&#128221;</i> Live Projects: 15</span>
+                </div>
+                <p>📚 412+ Active Learners</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card" data-category="it">
+            <img src="/interskilssolutions-project/assets/course/leftcourse.png" alt="Software Testing">
+            <div class="card-content">
+                <p>#EssentialSkills -</p>
+                <h3>Software Testing</h3>
+                <div class="details">
+                    <span><i class="icon">&#128197;</i> Duration: 2 Months</span>
+                    <span><i class="icon">&#128221;</i> Live Projects: 10</span>
+                </div>
+                <p>📚 200+ Active Learners</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+
+       <!-- Card 1: CAD / CAM / CAE -->
+<div class="card" data-category="mechanical-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="CAD / CAM / CAE Course">
     <div class="card-content">
-        <p> #rightchoice-</p> 
-        <h3>Ethical hacking</h3>
+        <p>#TopEngineeringTool -</p>
+        <h3>CAD / CAM / CAE</h3>
         <div class="details">
             <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
-            <span><i class="icon">&#128221;</i> live project: 20</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 20</span>
         </div>
-        <p>📚 574+ Active Learners</p>
+        <p>📚 500+ Active Learners</p>
         <a href="#" class="learn-more">Learn More</a>
     </div>
 </div>
 
-<!-- Card 2 -->
-<div class="card">
-    <img src="/interskilssolutions-project/assets/img/web dev.jpg" alt="Java Course">
+<!-- Card 2: AutoCAD 2D / 3D (Basic & Advanced) -->
+<div class="card" data-category="mechanical-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="AutoCAD 2D / 3D Course">
     <div class="card-content">
-       <p> #Trending -</p> 
-        <h3> Full Stack Development</h3>
+        <p>#EssentialSkill -</p>
+        <h3>AutoCAD 2D / 3D (Basic & Advanced)</h3>
         <div class="details">
-            <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
-            <span><i class="icon">&#128221;</i> live project: 15</span>
+            <span><i class="icon">&#128197;</i> Duration: 4 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 10</span>
         </div>
-        <p>📚 585+ Active Learners</p>
+        <p>📚 320+ Active Learners</p>
         <a href="#" class="learn-more">Learn More</a>
     </div>
 </div>
 
-<!-- Card 3 -->
-<div class="card">
-    <img src="/interskilssolutions-project/assets/img/web dev.jpg" alt="JavaScript Course">
+<!-- Card 3: CATIA V5 -->
+<div class="card" data-category="mechanical-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="CATIA V5 Course">
     <div class="card-content">
-        <p> #Popular -</p> 
-        <h3>Data Analytics</h3>
+        <p>#InnovativeDesign -</p>
+        <h3>CATIA V5</h3>
         <div class="details">
-            <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
-            <span><i class="icon">&#128221;</i> live projects : 30</span>
+            <span><i class="icon">&#128197;</i> Duration: 5 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 12</span>
         </div>
-        <p>📚 600+ Active Learners</p>
+        <p>📚 400+ Active Learners</p>
         <a href="#" class="learn-more">Learn More</a>
     </div>
 </div>
 
-<!-- Card 4 -->
-<div class="card">
-    <img src="/interskilssolutions-project/assets/img/web dev.jpg" alt="Data Science Course">
+<!-- Card 4: Solidworks -->
+<div class="card" data-category="mechanical-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Solidworks Course">
     <div class="card-content">
-        <p> #Top Rated-</p> 
-        <h3>Interior designing</h3>
+        <p>#CreativeEngineering -</p>
+        <h3>Solidworks</h3>
         <div class="details">
-            <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
-            <span><i class="icon">&#128221;</i> Live projects: 20</span>
+            <span><i class="icon">&#128197;</i> Duration: 3 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 8</span>
         </div>
-        <p>📚 620+ Active Learners</p>
+        <p>📚 280+ Active Learners</p>
         <a href="#" class="learn-more">Learn More</a>
     </div>
 </div>
-<div class="container">
-    <!-- Card 1 -->
-    <div class="card">
-        <img src="/interskilssolutions-project/assets/img/web dev.jpg" alt="Python Course">
-        <div class="card-content">
-            <p> #rightchoice-</p> 
-            <h3>Ethical hacking</h3>
-            <div class="details">
-                <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
-                <span><i class="icon">&#128221;</i> live project: 20</span>
-            </div>
-            <p>📚 574+ Active Learners</p>
-            <a href="#" class="learn-more">Learn More</a>
-        </div>
-    </div>
 
-    <!-- Card 2 -->
-    <div class="card">
-        <img src="/interskilssolutions-project/assets/img/web dev.jpg" alt="Java Course">
-        <div class="card-content">
-           <p> #Trending -</p> 
-            <h3> Full Stack Development</h3>
-            <div class="details">
-                <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
-                <span><i class="icon">&#128221;</i> live project: 15</span>
-            </div>
-            <p>📚 585+ Active Learners</p>
-            <a href="#" class="learn-more">Learn More</a>
+<!-- Card 5: MasterCam -->
+<div class="card" data-category="mechanical-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="MasterCam Course">
+    <div class="card-content">
+        <p>#EfficientMachining -</p>
+        <h3>MasterCam</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 4 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 10</span>
         </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="card">
-        <img src="/interskilssolutions-project/assets/img/web dev.jpg" alt="JavaScript Course">
-        <div class="card-content">
-            <p> #Popular -</p> 
-            <h3>Data Analytics</h3>
-            <div class="details">
-                <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
-                <span><i class="icon">&#128221;</i> live projects : 30</span>
-            </div>
-            <p>📚 600+ Active Learners</p>
-            <a href="#" class="learn-more">Learn More</a>
-        </div>
-    </div>
-
-    <!-- Card 4 -->
-    <div class="card">
-        <img src="/interskilssolutions-project/assets/img/web dev.jpg" alt="Data Science Course">
-        <div class="card-content">
-            <p> #Top Rated-</p> 
-            <h3>Interior designing</h3>
-            <div class="details">
-                <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
-                <span><i class="icon">&#128221;</i> Live projects: 20</span>
-            </div>
-            <p>📚 620+ Active Learners</p>
-            <a href="#" class="learn-more">Learn More</a>
-        </div>
+        <p>📚 250+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
     </div>
 </div>
+
+<!-- Card 6: Ansys / CREO -->
+<div class="card" data-category="mechanical-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Ansys / CREO Course">
+    <div class="card-content">
+        <p>#SimulationExperts -</p>
+        <h3>Ansys / CREO</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 5 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 15</span>
+        </div>
+        <p>📚 300+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 7: Unigraphics -->
+<div class="card" data-category="mechanical-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Unigraphics Course">
+    <div class="card-content">
+        <p>#AdvancedModeling -</p>
+        <h3>Unigraphics</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 3 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 8</span>
+        </div>
+        <p>📚 200+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 8: PDMS -->
+<div class="card" data-category="mechanical-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="PDMS Course">
+    <div class="card-content">
+        <p>#ProcessDesignPro -</p>
+        <h3>PDMS</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 14</span>
+        </div>
+        <p>📚 260+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 9: Mechanical Engineering -->
+<div class="card" data-category="mechanical-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Mechanical Engineering Course">
+    <div class="card-content">
+        <p>#FutureEngineer -</p>
+        <h3>Mechanical Engineering</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 20</span>
+        </div>
+        <p>📚 500+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+       <!-- Card 1: AutoCAD -->
+<div class="card" data-category="civil-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="AutoCAD Course">
+    <div class="card-content">
+        <p>#EssentialDesignTool -</p>
+        <h3>AutoCAD</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 4 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 10</span>
+        </div>
+        <p>📚 320+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 2: 3Ds Max with V-Ray -->
+<div class="card" data-category="civil-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="3Ds Max with V-Ray Course">
+    <div class="card-content">
+        <p>#VisualizeIn3D -</p>
+        <h3>3Ds Max with V-Ray</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 5 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 12</span>
+        </div>
+        <p>📚 450+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 3: Revit (Arch / Structural) -->
+<div class="card" data-category="civil-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Revit (Arch / Structural) Course">
+    <div class="card-content">
+        <p>#BuildingDesign -</p>
+        <h3>Revit (Arch / Structural)</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 5 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 14</span>
+        </div>
+        <p>📚 400+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 4: Google Sketchup -->
+<div class="card" data-category="civil-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Google Sketchup Course">
+    <div class="card-content">
+        <p>#QuickModeling -</p>
+        <h3>Google Sketchup</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 3 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 8</span>
+        </div>
+        <p>📚 250+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 5: Lumion -->
+<div class="card" data-category="civil-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Lumion Course">
+    <div class="card-content">
+        <p>#RealTimeRendering -</p>
+        <h3>Lumion</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 4 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 10</span>
+        </div>
+        <p>📚 300+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 6: Staad Pro -->
+<div class="card" data-category="civil-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Staad Pro Course">
+    <div class="card-content">
+        <p>#StructuralAnalysis -</p>
+        <h3>Staad Pro</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 5 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 15</span>
+        </div>
+        <p>📚 350+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 7: E Tabs -->
+<div class="card" data-category="civil-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="E Tabs Course">
+    <div class="card-content">
+        <p>#AdvancedSeismicAnalysis -</p>
+        <h3>E Tabs</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 4 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 12</span>
+        </div>
+        <p>📚 270+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 8: Tekla Structure -->
+<div class="card" data-category="civil-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Tekla Structure Course">
+    <div class="card-content">
+        <p>#StructuralModeling -</p>
+        <h3>Tekla Structure</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 20</span>
+        </div>
+        <p>📚 400+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 9: BIM -->
+<div class="card" data-category="civil-engineering">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="BIM Course">
+    <div class="card-content">
+        <p>#DigitalConstruction -</p>
+        <h3>BIM</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 6 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 18</span>
+        </div>
+        <p>📚 500+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+
+<!-- Card 1: Search Engine Optimization (SEO) -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Search Engine Optimization (SEO) Course">
+    <div class="card-content">
+        <p>#TopSEOChoice -</p>
+        <h3>Search Engine Optimization (SEO)</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 4 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 10</span>
+        </div>
+        <p>📚 300+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 2: Social Media Marketing -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Social Media Marketing Course">
+    <div class="card-content">
+        <p>#GrowYourBrand -</p>
+        <h3>Social Media Marketing</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 5 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 12</span>
+        </div>
+        <p>📚 450+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 3: Google Analytics -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Google Analytics Course">
+    <div class="card-content">
+        <p>#DataDrivenMarketing -</p>
+        <h3>Google Analytics</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 3 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 6</span>
+        </div>
+        <p>📚 250+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 4: Google Adsense -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Google Adsense Course">
+    <div class="card-content">
+        <p>#MonetizeYourContent -</p>
+        <h3>Google Adsense</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 2 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 4</span>
+        </div>
+        <p>📚 200+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 5: Search Engine Marketing -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Search Engine Marketing Course">
+    <div class="card-content">
+        <p>#BoostYourTraffic -</p>
+        <h3>Search Engine Marketing</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 4 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 10</span>
+        </div>
+        <p>📚 320+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 6: Social Media Optimization -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Social Media Optimization Course">
+    <div class="card-content">
+        <p>#OptimizeYourSocials -</p>
+        <h3>Social Media Optimization</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 3 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 8</span>
+        </div>
+        <p>📚 230+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 7: Campaign Planning -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Campaign Planning Course">
+    <div class="card-content">
+        <p>#PlanYourSuccess -</p>
+        <h3>Campaign Planning</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 4 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 9</span>
+        </div>
+        <p>📚 280+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 8: Blogging / Video Marketing -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Blogging / Video Marketing Course">
+    <div class="card-content">
+        <p>#ContentCreation -</p>
+        <h3>Blogging / Video Marketing</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 5 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 12</span>
+        </div>
+        <p>📚 330+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 9: Affiliate Marketing -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Affiliate Marketing Course">
+    <div class="card-content">
+        <p>#EarnFromHome -</p>
+        <h3>Affiliate Marketing</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 3 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 7</span>
+        </div>
+        <p>📚 180+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+<!-- Card 10: Email Marketing -->
+<div class="card" data-category="digital-marketing">
+    <img src="/test/Red And White Modern Web Development Service Instagram Post.png" alt="Email Marketing Course">
+    <div class="card-content">
+        <p>#ReachYourAudience -</p>
+        <h3>Email Marketing</h3>
+        <div class="details">
+            <span><i class="icon">&#128197;</i> Duration: 3 Months</span>
+            <span><i class="icon">&#128221;</i> Live Projects: 6</span>
+        </div>
+        <p>📚 240+ Active Learners</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</div>
+
+
 
 <div class="recruiters-section">
     <h2>Our Recruiters</h2>
@@ -478,7 +924,6 @@
             </p>
             <span class="read-more">Read more</span>
         </div>
-  
     </div>
     <button id="see-more">See More</button>
 </div>
@@ -528,10 +973,10 @@
 </footer>
 
 
-
-<script src="/interskilssolutions-project/javascript/script.js"></script>
+<script src="/interskilssolutions-project/javascript/course.js"></script>
+<script src="/interskilssolutions-project/javascript/herosection.js"></script>
 <script src="/interskilssolutions-project/javascript/placedstd.js"></script>
 <script src="/interskilssolutions-project/javascript/testimonial.js"></script>
-
+<script src="/interskilssolutions-project/javascript/stats.js"></script>
 </body>
 </html>

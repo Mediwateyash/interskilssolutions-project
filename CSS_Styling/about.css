@@ -1,13 +1,13 @@
 /* about us  */
 
 .about-us {
-    background-color: #f2f5f9;
+    background-color: #c9e9fb;
     padding: 50px 20px;
     text-align: center;
 }
 
 .about-us h2 {
-    color: #e63946;
+    color: #435ea2;
     font-size: 2em;
     margin-bottom: 10px;
 }
@@ -51,7 +51,7 @@
 
 .about-us .read-more {
     padding: 10px 20px;
-    background-color: #e63946;
+    background-color: #435ea2;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -73,7 +73,7 @@
 .branches-section {
     text-align: center;
     padding: 20px;
-    background-color: #f0f4ff;
+    background-color: #c9e9fb;
 }
 
 .branches-section h2 {
@@ -106,7 +106,7 @@
 .why-choose-us {
     text-align: center;
     padding: 40px 20px;
-    background-color: #ffffff;
+    background-color: #dee5f9;
 }
 
 .why-choose-us h2 {
@@ -152,7 +152,7 @@
 }
 
 .stats {
-    background-color: #f8f9fa;
+    background-color: #c9e9fb;
     padding: 40px 20px;
     text-align: center;
 }
@@ -167,7 +167,7 @@
 }
 
 .stat h3 {
-    color: #e63946;
+    color: #0056b3;
     font-size: 2em;
     margin: 0;
 }

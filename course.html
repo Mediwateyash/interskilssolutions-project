@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Web Development Course</title>
+    <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/coursepage.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Full Stack Web Development Bootcamp</h1>
+        <p>Become a professional web developer by mastering front-end, back-end, and everything in between!</p>
+    </section>
+
+    <!-- Course Overview -->
+    <section class="course-info">
+        <h2>Course Overview</h2>
+        <p>
+            This course takes you from zero to hero in web development. Learn front-end technologies like HTML, CSS, and JavaScript, 
+            back-end development with Node.js and Express, and database management with MongoDB. Build and deploy full-stack projects that stand out!
+        </p>
+    </section>
+
+    <!-- Syllabus -->
+    <section class="accordion">
+        <h2>Syllabus</h2>
+
+        <div class="accordion-item">
+            <button onclick="toggleAccordion(this)">Module 1: Front-End Development</button>
+            <div class="accordion-item-content">
+                <ul>
+                    <li>HTML5 and CSS3 Basics</li>
+                    <li>JavaScript and DOM Manipulation</li>
+                    <li>Responsive Web Design with Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button onclick="toggleAccordion(this)">Module 2: Back-End Development</button>
+            <div class="accordion-item-content">
+                <ul>
+                    <li>Introduction to Node.js</li>
+                    <li>Building APIs with Express.js</li>
+                    <li>Authentication and Security</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button onclick="toggleAccordion(this)">Module 3: Database Management</button>
+            <div class="accordion-item-content">
+                <ul>
+                    <li>Introduction to Databases</li>
+                    <li>MongoDB and Mongoose</li>
+                    <li>Data Relationships</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button onclick="toggleAccordion(this)">Module 4: Full Stack Projects</button>
+            <div class="accordion-item-content">
+                <ul>
+                    <li>Building a Blog Application</li>
+                    <li>E-Commerce Platform</li>
+                    <li>Portfolio Website</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="key-features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>50+ Hours of Video Content</li>
+            <li>Live Project Building</li>
+            <li>Access to GitHub Repositories</li>
+            <li>Job Assistance Program</li>
+            <li>Interactive Doubt-Solving Sessions</li>
+        </ul>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>Student Testimonials</h2>
+        <div class="testimonial">
+            <p>"This bootcamp transformed my career. I went from knowing nothing about web development to landing my first developer job!"</p>
+            <span>- Rahul Sharma</span>
+        </div>
+        <div class="testimonial">
+            <p>"The hands-on projects and practical approach made learning easy and enjoyable."</p>
+            <span>- Priya Verma</span>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button onclick="toggleAccordion(this)">Who is this course for?</button>
+            <div class="faq-content">
+                <p>Anyone interested in learning web development, from beginners to aspiring professionals, can join this course.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAccordion(this)">What tools or software do I need?</button>
+            <div class="faq-content">
+                <p>You need a computer, a modern web browser, and a code editor like VS Code.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAccordion(this)">Will I receive a certificate?</button>
+            <div class="faq-content">
+                <p>Yes, you will receive a certificate of completion after finishing the course.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Interskill Solutions. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleAccordion(button) {
+            const content = button.nextElementSibling;
+            content.style.display = content.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</body>
+</html>

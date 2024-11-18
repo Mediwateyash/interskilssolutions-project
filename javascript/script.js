@@ -7,5 +7,4 @@ function showNextSlide() {
 }
 
 // Set interval for automatic slider
-setInterval(showNextSlide, 3000);
-0
+setInterval(showNextSlide, 5000);

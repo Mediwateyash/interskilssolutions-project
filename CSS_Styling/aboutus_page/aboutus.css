@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  #about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Introduction Section */
+  .introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .introduction .content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .introduction h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .introduction .photo img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Mission and Vision Section */
+  .mission-vision {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+  }
+  
+  .mission-vision .section {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .mission-vision h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Location Section */
+  .location {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .location iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Placement Partners Section */
+  .partners {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .partners .logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .partners .logos img {
+    max-width: 120px;
+    border-radius: 10px;
+  }
+  
+/* Faculty Section */
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Faculty Section */
+.faculty-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.faculty-section h2 {
+  font-size: 28px;
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+.faculty-card {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.faculty-card h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.teacher-icon {
+  font-size: 40px;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+.faculty-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin: 5px 0;
+}
+
+.faculty-card p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+  
